@@ -1,2 +1,2 @@
-# semester-elective-website
-A web application for Semester Elective paper choice and allocation
+# Semester Elective Website
+Java-based web application for odd semester open elective paper choice and allocation.
