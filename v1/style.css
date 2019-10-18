@@ -136,6 +136,14 @@ footer span {
   width: 140px;
   height: 40px;
   border: 1px solid #333;
+  border-radius: 21px;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: #ccc;
+  box-shadow: 0 0 4px #333;
 }
 
 .btn-logout span {
@@ -163,7 +171,6 @@ footer span {
   justify-content: center;
   align-content: center;
   box-sizing: border-box;
-  border: 1px solid #333;
   background: #333;
   color: #fff;
 }
