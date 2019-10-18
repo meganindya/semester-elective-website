@@ -5,10 +5,13 @@ body {
   font-family: 'Be Vietnam', sans-serif;
   width: 100%;
   height: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
 }
 
 .rect-circ {
-
+  display: none;
 }
 
 .rect-round-sm {
@@ -16,7 +19,25 @@ body {
 }
 
 .rect-round-bg {
+  border-radius: 16px;
+}
 
+.text-header {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer span {
+  font-size: 0.8rem;
 }
 
 
@@ -24,7 +45,7 @@ body {
     login-page
    =================== */
 .box-form {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -80,7 +101,7 @@ body {
   border: 0;
   padding: 0 0 0 48px;
   font-size: 14px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-family: 'Be Vietnam', sans-serif;
   font-weight: 700;
 }
@@ -102,4 +123,47 @@ body {
 
 .box-form input[type="checkbox"] {
 
+}
+
+
+/* ===================
+    login-page
+   =================== */
+.box-btn-list {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: auto;
+  margin: 100px 0 80px 0;
+}
+
+.box-btn-big {
+  box-sizing: border-box;
+  width: inherit;
+  height: 60px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.box-btn-big:hover,
+.box-btn-big:active {
+  background: #ccc;
+}
+
+.btn-reset {
+  margin: 100px 0 0 0;
+  background: #333;
+  color: #fff;
+}
+
+.btn-reset:hover,
+.btn-reset:active {
+  background: #666;
 }
