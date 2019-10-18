@@ -11,7 +11,7 @@ body {
 }
 
 .rect-circ {
-  display: none;
+  border-radius: 20px;
 }
 
 .rect-round-sm {
@@ -129,6 +129,45 @@ footer span {
 /* ===================
     login-page
    =================== */
+.btn-logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 140px;
+  height: 40px;
+  border: 1px solid #333;
+}
+
+.btn-logout span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: inherit;
+  height: inherit;
+  display: grid;
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
+  padding-right: 40px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-logout div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: inherit;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  background: #333;
+  color: #fff;
+}
+
 .box-btn-list {
   position: relative;
   left: 50%;
