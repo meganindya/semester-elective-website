@@ -1,0 +1,47 @@
+/* ====================
+   common
+   ==================== */
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.wrapper-content {
+  width: 100%;
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+input {
+  border: none;
+  padding: 0 1.25rem;
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rect-round-bg {
+  border-radius: 1rem;
+}
+
+.rect-circ {
+  height: 2.5rem;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+}
