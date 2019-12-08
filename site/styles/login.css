@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(90deg, #0062e3, #3baffe) fixed;
+}
+
+#form-login {
+  width: 16rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: aliceblue;
+  box-shadow: 0 0 0.25rem 1px #666;
+}
+
+#form-login > span {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#form-login input[type = "text"],
+#form-login input[type = "password"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+#form-login input[type = "text"]:focus,
+#form-login input[type = "password"]:focus {
+  border: 1px solid #007fff;
+}
+
+#checkbox-remember {
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#checkbox-remember input {
+  height: inherit;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+}
+
+#checkbox-remember span {
+  height: inherit;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+}
+
+#form-login input[type = "submit"] {
+  margin-bottom: 1.25rem;
+  background: #007fff;
+  color: aliceblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#form-login a::before {
+  width: inherit;
+  height: 1px;
+  content: "";
+  display: block;
+  margin-bottom: 0.25rem;
+  background: #ccc;
+}
+
+#form-login a {
+  font-size: 0.9rem;
+  color: #007fff;
+}
+
+#form-login a:active,
+#form-login a:visited {
+  color: #00007f;
+}
